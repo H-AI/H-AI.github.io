@@ -1,0 +1,21 @@
+site_name: HAI
+site_description: HAI documentation
+site_author: Hai Yu
+
+repo_url: https://github.com/H-AI/H-AI.github.io
+edit_uri: ""
+
+nav:
+  - Home: index.md
+  - Perception:
+    - Logs: perception/logs.md
+  - Introduction: about.md
+  - Mission Statement: mission.md
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+
+theme:
+  name: material
+
